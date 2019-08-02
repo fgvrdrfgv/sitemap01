@@ -233,7 +233,7 @@ function displayToc(filter) {
    }
    tocTable += '</table>';
    if (numDisplayed == postTitle.length) {
-      var tocNote = '<span class="toc-note"> عدد المواضيع ' + postTitle.length + ' موضوع<br/></span>'; }
+      var tocNote = '<span class="toc-note"> عدد المواضيع: ' + postTitle.length + ' موضوع<br/></span>'; }
    else {
       var tocNote = '<span class="toc-note">عدد المواضيع ' + numDisplayed + ' موضوع \'';
       tocNote += postFilter + '\' من '+ postTitle.length + ' موضوع <br/></span>';
